@@ -1,0 +1,35 @@
+@import url("/style/colores.css");
+
+/*import de tipografia¨*/
+@import url("/style/tipografia.css");
+
+@import url("/style/botones-style.css");
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Sarabun', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+.swiper-pagination-bullet {
+    background-color: var(--color--main);
+    opacity: 0.24;
+}
+
+
+.swiper-pagination-bullet-active {
+    opacity: 1;
+}
