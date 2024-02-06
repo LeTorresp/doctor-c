@@ -470,6 +470,7 @@ height: auto;
         flex-direction: column-reverse;
         justify-content:center;
         align-items: center;
+        padding-top: 30px;
        
       }
 
