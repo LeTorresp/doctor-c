@@ -1,8 +1,11 @@
 @import url("colores.css");
-@import url('https://fonts.googleapis.com/css2?family=Sarabun');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+
+
 :root{
     /*Fuente*/
-    --font--fuente--principal:'Sarabun';
+    --font--fuente--principal:'Montserrat';
     
     /*weight*/
     --font--weight--bold:700;
@@ -18,9 +21,9 @@
     --font--size--h1:48px;
     --font--size--h2-especial:56px;
     --font--size--h2:40px;
-    --font--size--h3:32px;
-    --font--size--h4:32px;
-    --font--size--h5:34px;
+    --font--size--h3:24px;
+    --font--size--h4:24px;
+    --font--size--h5:24px;
     --font--size--h6:24px;
     --font--size--eyebrown:18px;
 
@@ -66,7 +69,7 @@ body{
 }
 
 h1{
-    color:var( --color--neutral--80);
+    color:var( --color--neutral--90);
     font-size: var(--font--size--h1);/*tamaño*/
     font-weight: var(--font--weight--bold);/*weight*/
     line-height:120%; /*interlineado*/
@@ -76,7 +79,7 @@ h1{
 }
 
 h2{
-    color:var( --color--neutral--80);
+    color:var( --color--neutral--90);
   font-size: var(--font--size--h2);/*tamaño*/
   font-weight: var(--font--weight--bold);/*weight*/
   line-height:120%; /*interlineado*/
@@ -86,9 +89,9 @@ h2{
 
 
 h3{
-    color:var( --color--neutral--80);
+    color:var( --color--neutral--100);
   font-size: var(--font--size--h3);/*tamaño*/
-  font-weight: var(--font--weight--bold);/*weight*/
+  font-weight: var(--font--weight--semibold);/*weight*/
   line-height:120%; /*interlineado*/
   letter-spacing: var(--font-tracking-title);/*tracking*/
 
@@ -96,7 +99,7 @@ h3{
 
 
 h4{
-    color:var( --color--neutral--80);
+    color:var( --color--neutral--90);
   font-size: var(--font--size--h4);/*tamaño*/
   font-weight: var(--font--weight--semibold);/*weight*/
   line-height:120%; /*interlineado*/
@@ -104,7 +107,7 @@ h4{
 
 }
 h5{
- color:var( --color--neutral--80);
+ color:var( --color--neutral--90);
   font-size: var(--font--size--h5);/*tamaño*/
   font-weight: var(--font--weight--bold);/*weight*/
   line-height:120%; /*interlineado*/
@@ -129,6 +132,7 @@ h6{
 
 p{
   font-weight: var(--font--weight--regular);/*weight*/
+  font-size: 16px ;
 }
 
 .p-xl{

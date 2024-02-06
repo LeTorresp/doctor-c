@@ -38,7 +38,7 @@
 
 /* ---------------------------------Estilo del elemento------------------------------------*/
 .button {
-    display: inline-block;
+    display: inline-flex;
     color: var(--neutral-escala-grises-10, #F5F5F5);
     text-align: center;
     /* Comun/Boton */
@@ -278,7 +278,7 @@
 
 /* solo icono*/
 .button--icono{
-    padding: 12px 16px;
+    padding: 16px 32px;
 
 }
 
@@ -294,11 +294,12 @@
 /*texto + icono*/
 .button--texto--icono{
     padding: 12px 16px 12px 32px ;
-    display:inline-flex;
+    display:inline-block;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     width: auto;
+    
     
 }
 
