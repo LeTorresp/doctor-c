@@ -47,7 +47,7 @@
 
 /* Cambio de tamaño en celular*/
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 900px) {
 
   :root{
     --font--size--h1:24px;

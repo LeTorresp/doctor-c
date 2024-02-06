@@ -88,7 +88,7 @@ font-size: 20px !important;
 }
 
 .logo .logo-img {
-    display: block;
+    display: inline-block;
     width: 70%;
     height: auto;
  
@@ -162,7 +162,11 @@ width: 50%;
 height: auto;
 }
 .Cont__banner-Texto {
+    display: flex;
+    flex-direction: column;
     padding-left: 128px;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 .Cont__banner-Texto h2 {
@@ -392,14 +396,18 @@ height: auto;
     border-radius: 10px;
 }
 .Cont-Footer-v2{
+    width: 100%;
     display: flex;
-}
-.Cont-Footer-v1-caidas{
-   
+    justify-content:space-around;
+    flex-wrap: wrap;
+    gap: 32px ;
+}  
+.Cont-Footer-v2 img{
+    display: block;
 }
 .Cont-Footer-v1-caidas h2, a{
     color:white;
-    display: inline-block;
+    display:block;
     font-size: 16px;
     padding: 8px 0px;
    
@@ -407,8 +415,159 @@ height: auto;
 .Cont-Footer-v1-caidas h2{
     display: block;
 }
-@media screen and (max-width: 900px) {
-    .nav_menu{
-        gap:8px;
-    }
+
+
+
+@media screen and (max-width: 900px) {  
+       .header__area{
+        justify-content: flex-start;
+        padding:  0px;
+        margin: 0px;
+       }
+
+
+      .header__area_cont{
+        width: 100%;
+        display: flex;
+        justify-content:space-between !important;
+        align-items:center;
+        padding: 10px 24px;
+        
+      }
+      .nav_menu{
+        display: none;
+      }  
+
+      .logo{
+        padding: 0px;
+        width: 50%;
+      }
+      .item-mobile{
+        display: inline-block !important;
+        color: #ff6600;
+        font-size: 32px ;
+        margin-right: 32px;
+        
+      }
+
+      .Banner {
+        flex-direction: column-reverse;
+        justify-content:center;
+        align-items: center;
+       
+      }
+
+      .Cont__banner{
+        width: 100%;
+        height: auto;
+        }
+        .Cont__banner-Texto {
+            padding: 0px 24px 32px;
+            align-items: center;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .Cont__banner-Texto p {
+            padding: 24px 0px;
+            
+           
+        }
+        .Cont__banner img {
+            width: 100%;
+            border-radius: 0px 0px 250px 250px;
+            margin-bottom: 0px;
+            height: fit-content;
+            max-height: max-content;
+        
+        }
+        
+        .Container--Que-es{
+            padding: 80px  25px 4%;
+            text-align: center;
+            align-items: center;
+            gap: 32px ;
+        }
+        
+        .Container--Que-es iframe{
+            width:100% ;
+            height: 40vh;
+            margin: 0px 48px;
+        
+        }
+
+        .Servicios{
+        background-color: var(--color--bakcground--azul);
+            padding:40px  24px ;
+        }
+        
+        .card-servicios{
+            width: 100%;
+        }
+        .container-IA{
+           flex-wrap: wrap;
+            
+            gap: 32px;
+            padding: 40px 24px 40px;
+            
+        }
+        .container-IA-parrafo{
+            text-align: center;
+            align-items:center;
+            justify-content:center;
+            gap: 32px;
+        }
+        
+        
+        
+        .container-IA img{
+            border-radius: 10px;
+            width:80vw;
+            height: auto;
+        }
+       
+        .Cont-Interes{
+            padding: 0 24px 40px;
+            text-align: center;
+          
+        }
+
+        .testimonio{
+            padding: 20px 24px;
+        }
+        .Cont-testimonio{
+           flex-wrap: wrap;
+            gap: 24px;
+        
+        }
+        .footer{
+            padding: 40px 25px;
+            flex-direction: column-reverse;
+        }
+        .Cont-Footer-v2{
+            flex-direction:column ;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .Cont-Footer-v2 img{
+            display: none;
+        }
+
+        .Cont-Footer-v1{          
+            justify-content:center;
+            flex-wrap: wrap;
+            
+        }
+
+        .Cont-Footer-v1 img{
+            margin-bottom: 16px;
+        }
+        .Cont-Footer-v1 i{
+            background-color:#4B4B4B ;
+            font-size: 20px;
+            color: white;
+            padding: 10px;
+            border-radius: 10px;
+        }
 }
