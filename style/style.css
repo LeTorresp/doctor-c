@@ -119,6 +119,9 @@ font-size: 20px !important;
     border-bottom: 2px solid var(--color--main);
 
 }
+.nav_link:hover{
+    color: var(--color--main);
+}
 
 .nav_menu-iconos {
     display: flex;
@@ -234,8 +237,10 @@ height: auto;
     align-items: center;
     justify-content: center;
     gap:24px;
-   
+  
 }
+
+
 
 .card-servicios{
     width: 30%;
@@ -248,6 +253,12 @@ height: auto;
     align-items: center;
     background-color: white;
     box-shadow: 2px 5px 16px 0px rgba(0, 0, 0, 0.15);
+    transition: all 0.8s;
+}
+
+.card-servicios:hover{
+    -webkit-transform: scale(1.01);
+    background-color: var(--color--bakcground--naranja);
 }
 
 .card-servicios img{
@@ -319,6 +330,11 @@ height: auto;
     align-items: center;
     background-color: white;
     box-shadow: 2px 5px 16px 0px rgba(0, 0, 0, 0.15);
+    transition: all 0.8s;
+}
+.Card__carrusel__interes:hover{
+    -webkit-transform: scale(1.01);
+    background-color: var(--color--bakcground--naranja);
 }
 .Cont__carrusel img{
     width: 100%;
