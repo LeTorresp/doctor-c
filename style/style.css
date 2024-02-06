@@ -1,9 +1,9 @@
-@import url("/style/colores.css");
+@import url("../style/colores.css");
 
 /*import de tipografia¨*/
-@import url("/style/tipografia.css");
+@import url("../style/tipografia.css");
 
-@import url("/style/botones-style.css");
+@import url("../style/botones-style.css");
 
 *,
 *::after,
@@ -16,7 +16,7 @@
 }
 
 main{
-    background-image: url("/assets/fondo.png");
+    background-image: url("../assets/fondo.png");
     background-repeat: repeat;
     background-size: contain;
     background-position:center;
@@ -148,7 +148,7 @@ font-size: 20px !important;
     justify-content: space-between;
     background-color: var(--color--bakcground--naranja);
     z-index: 0;
-    padding-top: 35px;
+    padding-top: 55px;
     gap:30px;
     
 }
@@ -223,7 +223,7 @@ height: auto;
     align-items: center;
     justify-content: center;
     gap: 32px;
-    background-image: url("/assets/fondo2.png");
+    background-image: url("../assets/fondo2.png");
     background-repeat:no-repeat;
     background-size:cover;
     background-position:center; 
@@ -298,7 +298,7 @@ height: auto;
 
 
 .Info-interes{
-    background-image: url("/assets/fondo3.png");
+    background-image: url("../assets/fondo3.png");
     background-repeat:no-repeat;
     background-size:cover;
     background-position:center; 
